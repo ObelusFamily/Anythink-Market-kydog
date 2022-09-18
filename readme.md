@@ -10,4 +10,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+- Make sure you have Docker Desktop installed. You can follow the instructions [here](https://docs.docker.com/get-docker/)
+- You can verify docker is ready by running the following commands in your terminal: `docker -v` and `docker-compose -v`
+- Clone this repository by running the follow command `git clone git@github.com:ObelusFamily/Anythink-Market-kydog.git`
+- Next start the Docker containers by navigating to the repository root and running `docker-compose up`
+- Once that has completed, you can test that your containers are working by visiting [http://localhost:3000/api/ping](http://localhost:3000/api/ping) and [http://localhost:3001/](http://localhost:3001/)  
